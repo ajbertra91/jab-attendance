@@ -1,13 +1,21 @@
 {
-  "name": "start-polymer3",
-  "version": "3.0.0",
-  "main": "src/start-polymer3.js",
-  "repository": "https://github.com/PolymerLabs/start-polymer3.git",
-  "author": "The Polymer Project Authors",
+  "name": "jab-attendance",
+  "version": "0.0.1",
+  "main": "src/jab-attendance-bundle.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": "",
+  "author": "Adam Bertrand",
   "license": "BSD-3-Clause",
   "dependencies": {
+    "@polymer/paper-button": "^3.0.0-pre.25",
     "@polymer/paper-checkbox": "latest",
     "@polymer/polymer": "latest",
-    "@webcomponents/webcomponentsjs": "latest"
+    "@webcomponents/webcomponentsjs": "latest",
+    "hyperhtml-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "moment": "^2.22.2"
   }
 }

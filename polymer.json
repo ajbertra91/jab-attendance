@@ -1,11 +1,11 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/start-polymer3.js",
+  "shell": "src/components/jab-attendance.js",
   "fragments": [
-    "src/lazy-element.js"
+    "src/components/jab-attendance-login.js"
   ],
   "sources": [
-   "src/start-polymer3.js",
+   "src/components/jab-attendance.js.js",
    "manifest/**",
    "package.json"
   ],
