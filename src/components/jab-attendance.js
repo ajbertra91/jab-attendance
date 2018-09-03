@@ -29,6 +29,7 @@ class JabAttendance extends HyperHtmlElement {
         console && console.error("JabAttendanceLogin failed to load", reason);
       });
       this.loadJabAttendanceLogin = true;
+
     }
   }
 
